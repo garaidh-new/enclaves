@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: testserver-service-loadbalancer
+  annotations: service.beta.kubernetes.io/aws-load-balancer-internal: "true"
+  namespace: foo
+spec:
+  type: LoadBalancer
+  selector:
+    app: testserver
+  ports:
+    - protocol: TCP
+      port: 5005
+      targetPort: 5005
+
+
+
