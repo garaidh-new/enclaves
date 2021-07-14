@@ -103,7 +103,7 @@ def xmit(address,iterations,textSize):
             min = elapsed
         if elapsed > max:
             old_max = max
-            #my_logger.info('New maximum - was:%s:now:%s' % (max, elapsed))
+            my_logger.info('New maximum - was:%s:now:%s' % (old_max, elapsed))
             max = elapsed
 
         x = x + elapsed
