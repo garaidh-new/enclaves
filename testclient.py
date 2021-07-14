@@ -34,6 +34,7 @@ def xmit(address,iterations,textSize):
     old_max = 0.0
     x = 0.0
     j=1.0  # iterations for average
+    ninetieth = 0.0
 
     nowStart = datetime.now()
     current_time = nowStart.strftime("%H:%M:%S")
