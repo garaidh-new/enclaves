@@ -7,7 +7,7 @@ metadata:
   labels:
     name: testserver
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: testserver
@@ -22,7 +22,7 @@ spec:
         imagePullPolicy: Always
         resources:
           limits:
-            memory: "2048Mi"
+            memory: "1048Mi"
             cpu: "1"
         ports:
           - containerPort: 5005

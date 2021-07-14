@@ -31,6 +31,7 @@ def xmit(address,iterations,textSize):
     min = 1.0
     avg = 0.0
     max = 0.0
+    old_max = 0.0
     x = 0.0
     j=1.0  # iterations for average
 
@@ -100,20 +101,22 @@ def xmit(address,iterations,textSize):
             #my_logger.info('New minimum - was:%s:now:%s' % (min, elapsed))
             min = elapsed
         if elapsed > max:
+            old_max = max
             #my_logger.info('New maximum - was:%s:now:%s' % (max, elapsed))
             max = elapsed
 
         x = x + elapsed
         avg = x / j
-
+        ninetieth = old_max
+        # my_logger.debug('Thread {} for data size {} stopped with time {}'.format(i, textSize, elapsed))
 
         s.close()
         #time.sleep(0.2)
 
     nowStop = datetime.now()
     runTime = nowStop - nowStart
-    my_logger.debug('Stopping- dataSize:%d:Min:%s:Avg:%s:Max:%s:Iterations:%s:Elapsed Runtime:%s' % (
-        textSize, min, avg, max,j, str(runTime)))
+    my_logger.debug('Stopping- dataSize:%d:Min:%s:Avg:%s:Max:%s:Nth:%s:Iterations:%s:Elapsed Runtime:%s' % (
+        textSize, min, avg, max, ninetieth, j, str(runTime)))
 
 def clientHandler(args):
     address = (args.host, args.port)  # let the kernel assign a port
