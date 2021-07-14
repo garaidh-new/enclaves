@@ -35,6 +35,7 @@ def xmit(address,iterations,textSize):
     x = 0.0
     j=1.0  # iterations for average
     ninetieth = 0.0
+    list_of= []
 
     nowStart = datetime.now()
     current_time = nowStart.strftime("%H:%M:%S")
@@ -98,22 +99,22 @@ def xmit(address,iterations,textSize):
         end = timer()
 
         elapsed = (end - start)
+        list_of.append(elapsed)
         if elapsed < min:
             #my_logger.info('New minimum - was:%s:now:%s' % (min, elapsed))
             min = elapsed
         if elapsed > max:
-            old_max = max
-            my_logger.info('New maximum - was:%s:now:%s' % (old_max, elapsed))
+            my_logger.info('New maximum - was:%s:now:%s' % (max, elapsed))
             max = elapsed
 
         x = x + elapsed
         avg = x / j
-        ninetieth = old_max
-        # my_logger.debug('Thread {} for data size {} stopped with time {}'.format(i, textSize, elapsed))
-
+        #my_logger.debug('Thread {} for data size {} stopped with time {}'.format(i, textSize, elapsed))
         s.close()
         #time.sleep(0.2)
 
+    list_of.sort()
+    ninetieth = list_of[len(list_of)-2]
     nowStop = datetime.now()
     runTime = nowStop - nowStart
     my_logger.debug('Stopping- dataSize:%d:Min:%s:Avg:%s:Max:%s:Nth:%s:Iterations:%s:Elapsed Runtime:%s' % (
