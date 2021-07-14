@@ -1,0 +1,90 @@
+2021-07-13 14:24:48,930 [DEBUG] (xmit 1    ) Starting - Data size (k) : 16, Iterations : 10
+2021-07-13 14:24:48,931 [DEBUG] (xmit 2    ) Starting - Data size (k) : 32, Iterations : 10
+2021-07-13 14:24:48,932 [DEBUG] (xmit 3    ) Starting - Data size (k) : 64, Iterations : 10
+2021-07-13 14:24:48,932 [DEBUG] (xmit 4    ) Starting - Data size (k) : 128, Iterations : 10
+2021-07-13 14:24:48,933 [DEBUG] (xmit 5    ) Starting - Data size (k) : 256, Iterations : 10
+2021-07-13 14:24:48,933 [DEBUG] (xmit 6    ) Starting - Data size (k) : 512, Iterations : 10
+2021-07-13 14:24:48,934 [DEBUG] (xmit 7    ) Starting - Data size (k) : 1024, Iterations : 10
+2021-07-13 14:24:48,934 [DEBUG] (xmit 8    ) Starting - Data size (k) : 2048, Iterations : 10
+2021-07-13 14:24:48,935 [DEBUG] (xmit 9    ) Starting - Data size (k) : 4096, Iterations : 10
+2021-07-13 14:24:48,935 [DEBUG] (xmit 10   ) Starting - Data size (k) : 8192, Iterations : 10
+2021-07-13 14:25:02,116 [DEBUG] (xmit 1    ) Starting - Data size (k) : 16, Iterations : 10
+2021-07-13 14:25:02,121 [DEBUG] (xmit 2    ) Starting - Data size (k) : 32, Iterations : 10
+2021-07-13 14:25:02,125 [DEBUG] (xmit 3    ) Starting - Data size (k) : 64, Iterations : 10
+2021-07-13 14:25:02,132 [DEBUG] (xmit 4    ) Starting - Data size (k) : 128, Iterations : 10
+2021-07-13 14:25:02,137 [DEBUG] (xmit 5    ) Starting - Data size (k) : 256, Iterations : 10
+2021-07-13 14:25:02,142 [DEBUG] (xmit 6    ) Starting - Data size (k) : 512, Iterations : 10
+2021-07-13 14:25:02,145 [DEBUG] (xmit 7    ) Starting - Data size (k) : 1024, Iterations : 10
+2021-07-13 14:25:02,156 [DEBUG] (xmit 8    ) Starting - Data size (k) : 2048, Iterations : 10
+2021-07-13 14:25:02,166 [DEBUG] (xmit 9    ) Starting - Data size (k) : 4096, Iterations : 10
+2021-07-13 14:25:02,173 [DEBUG] (xmit 10   ) Starting - Data size (k) : 8192, Iterations : 10
+2021-07-13 14:25:31,540 [DEBUG] (xmit 1    ) Starting - Data size (k) : 16, Iterations : 10
+2021-07-13 14:25:31,541 [DEBUG] (xmit 2    ) Starting - Data size (k) : 32, Iterations : 10
+2021-07-13 14:25:31,542 [DEBUG] (xmit 3    ) Starting - Data size (k) : 64, Iterations : 10
+2021-07-13 14:25:31,542 [DEBUG] (xmit 4    ) Starting - Data size (k) : 128, Iterations : 10
+2021-07-13 14:25:31,543 [DEBUG] (xmit 5    ) Starting - Data size (k) : 256, Iterations : 10
+2021-07-13 14:25:31,543 [DEBUG] (xmit 6    ) Starting - Data size (k) : 512, Iterations : 10
+2021-07-13 14:25:31,543 [DEBUG] (xmit 7    ) Starting - Data size (k) : 1024, Iterations : 10
+2021-07-13 14:25:31,544 [DEBUG] (xmit 8    ) Starting - Data size (k) : 2048, Iterations : 10
+2021-07-13 14:25:31,544 [DEBUG] (xmit 9    ) Starting - Data size (k) : 4096, Iterations : 10
+2021-07-13 14:25:31,545 [DEBUG] (xmit 10   ) Starting - Data size (k) : 8192, Iterations : 10
+2021-07-13 14:26:29,117 [DEBUG] (xmit 1    ) Starting - Data size (k) : 16, Iterations : 10
+2021-07-13 14:26:29,122 [DEBUG] (xmit 2    ) Starting - Data size (k) : 32, Iterations : 10
+2021-07-13 14:26:29,124 [DEBUG] (xmit 3    ) Starting - Data size (k) : 64, Iterations : 10
+2021-07-13 14:26:29,127 [DEBUG] (xmit 4    ) Starting - Data size (k) : 128, Iterations : 10
+2021-07-13 14:26:29,130 [DEBUG] (xmit 5    ) Starting - Data size (k) : 256, Iterations : 10
+2021-07-13 14:26:29,132 [DEBUG] (xmit 6    ) Starting - Data size (k) : 512, Iterations : 10
+2021-07-13 14:26:29,135 [DEBUG] (xmit 7    ) Starting - Data size (k) : 1024, Iterations : 10
+2021-07-13 14:26:29,137 [DEBUG] (xmit 8    ) Starting - Data size (k) : 2048, Iterations : 10
+2021-07-13 14:26:29,139 [DEBUG] (xmit 9    ) Starting - Data size (k) : 4096, Iterations : 10
+2021-07-13 14:26:29,142 [DEBUG] (xmit 10   ) Starting - Data size (k) : 8192, Iterations : 10
+2021-07-13 14:26:49,512 [DEBUG] (xmit 1    ) Starting - Data size (k) : 16, Iterations : 10
+2021-07-13 14:26:49,512 [DEBUG] (xmit 2    ) Starting - Data size (k) : 32, Iterations : 10
+2021-07-13 14:26:49,513 [DEBUG] (xmit 3    ) Starting - Data size (k) : 64, Iterations : 10
+2021-07-13 14:26:49,513 [DEBUG] (xmit 4    ) Starting - Data size (k) : 128, Iterations : 10
+2021-07-13 14:26:49,514 [DEBUG] (xmit 5    ) Starting - Data size (k) : 256, Iterations : 10
+2021-07-13 14:26:49,514 [DEBUG] (xmit 6    ) Starting - Data size (k) : 512, Iterations : 10
+2021-07-13 14:26:49,515 [DEBUG] (xmit 7    ) Starting - Data size (k) : 1024, Iterations : 10
+2021-07-13 14:26:49,515 [DEBUG] (xmit 8    ) Starting - Data size (k) : 2048, Iterations : 10
+2021-07-13 14:26:49,516 [DEBUG] (xmit 9    ) Starting - Data size (k) : 4096, Iterations : 10
+2021-07-13 14:26:49,516 [DEBUG] (xmit 10   ) Starting - Data size (k) : 8192, Iterations : 10
+2021-07-13 14:28:10,140 [DEBUG] (xmit 1    ) Starting - Data size (k) : 16, Iterations : 10
+2021-07-13 14:28:10,141 [DEBUG] (xmit 2    ) Starting - Data size (k) : 32, Iterations : 10
+2021-07-13 14:28:10,141 [DEBUG] (xmit 3    ) Starting - Data size (k) : 64, Iterations : 10
+2021-07-13 14:28:10,142 [DEBUG] (xmit 4    ) Starting - Data size (k) : 128, Iterations : 10
+2021-07-13 14:28:10,142 [DEBUG] (xmit 5    ) Starting - Data size (k) : 256, Iterations : 10
+2021-07-13 14:28:10,142 [DEBUG] (xmit 6    ) Starting - Data size (k) : 512, Iterations : 10
+2021-07-13 14:28:10,143 [DEBUG] (xmit 7    ) Starting - Data size (k) : 1024, Iterations : 10
+2021-07-13 14:28:10,143 [DEBUG] (xmit 8    ) Starting - Data size (k) : 2048, Iterations : 10
+2021-07-13 14:28:10,144 [DEBUG] (xmit 9    ) Starting - Data size (k) : 4096, Iterations : 10
+2021-07-13 14:28:10,144 [DEBUG] (xmit 10   ) Starting - Data size (k) : 8192, Iterations : 10
+2021-07-13 14:29:05,999 [DEBUG] (xmit 1    ) Starting - Data size (k) : 16, Iterations : 10
+2021-07-13 14:29:06,008 [DEBUG] (xmit 2    ) Starting - Data size (k) : 32, Iterations : 10
+2021-07-13 14:29:06,013 [DEBUG] (xmit 3    ) Starting - Data size (k) : 64, Iterations : 10
+2021-07-13 14:29:06,016 [DEBUG] (xmit 4    ) Starting - Data size (k) : 128, Iterations : 10
+2021-07-13 14:29:06,018 [DEBUG] (xmit 5    ) Starting - Data size (k) : 256, Iterations : 10
+2021-07-13 14:29:06,021 [DEBUG] (xmit 6    ) Starting - Data size (k) : 512, Iterations : 10
+2021-07-13 14:29:06,022 [DEBUG] (xmit 7    ) Starting - Data size (k) : 1024, Iterations : 10
+2021-07-13 14:29:06,025 [DEBUG] (xmit 8    ) Starting - Data size (k) : 2048, Iterations : 10
+2021-07-13 14:29:06,027 [DEBUG] (xmit 9    ) Starting - Data size (k) : 4096, Iterations : 10
+2021-07-13 14:29:06,028 [DEBUG] (xmit 10   ) Starting - Data size (k) : 8192, Iterations : 10
+2021-07-13 15:07:18,109 [DEBUG] (xmit 1    ) Starting - Data size (k) : 16, Iterations : 10
+2021-07-13 15:07:18,110 [DEBUG] (xmit 2    ) Starting - Data size (k) : 32, Iterations : 10
+2021-07-13 15:07:18,110 [DEBUG] (xmit 3    ) Starting - Data size (k) : 64, Iterations : 10
+2021-07-13 15:07:18,110 [DEBUG] (xmit 4    ) Starting - Data size (k) : 128, Iterations : 10
+2021-07-13 15:07:18,111 [DEBUG] (xmit 5    ) Starting - Data size (k) : 256, Iterations : 10
+2021-07-13 15:07:18,111 [DEBUG] (xmit 6    ) Starting - Data size (k) : 512, Iterations : 10
+2021-07-13 15:07:18,111 [DEBUG] (xmit 7    ) Starting - Data size (k) : 1024, Iterations : 10
+2021-07-13 15:07:18,112 [DEBUG] (xmit 8    ) Starting - Data size (k) : 2048, Iterations : 10
+2021-07-13 15:07:18,112 [DEBUG] (xmit 9    ) Starting - Data size (k) : 4096, Iterations : 10
+2021-07-13 15:07:18,112 [DEBUG] (xmit 10   ) Starting - Data size (k) : 8192, Iterations : 10
+2021-07-13 15:07:18,453 [DEBUG] (xmit 2    ) Stopping- dataSize:32:Min:0.021141943987458944:Avg:0.021050732921470295:Max:0.03012911370024085:Iterations:11.0:Elapsed Runtime:0:00:00.343026
+2021-07-13 15:07:18,459 [DEBUG] (xmit 6    ) Stopping- dataSize:512:Min:0.02098783804103732:Avg:0.02135606211694804:Max:0.029356941115111113:Iterations:11.0:Elapsed Runtime:0:00:00.347602
+2021-07-13 15:07:18,459 [DEBUG] (xmit 7    ) Stopping- dataSize:1024:Min:0.021343409083783627:Avg:0.021465960043397816:Max:0.03049201611429453:Iterations:11.0:Elapsed Runtime:0:00:00.347737
+2021-07-13 15:07:18,468 [DEBUG] (xmit 8    ) Stopping- dataSize:2048:Min:0.021768838167190552:Avg:0.021944089750335974:Max:0.02786304196342826:Iterations:11.0:Elapsed Runtime:0:00:00.356664
+2021-07-13 15:07:18,469 [DEBUG] (xmit 9    ) Stopping- dataSize:4096:Min:0.0223737102933228:Avg:0.02209756210107695:Max:0.03069588216021657:Iterations:11.0:Elapsed Runtime:0:00:00.357286
+2021-07-13 15:07:18,470 [DEBUG] (xmit 5    ) Stopping- dataSize:256:Min:0.020710779819637537:Avg:0.022622011601924896:Max:0.047851258888840675:Iterations:11.0:Elapsed Runtime:0:00:00.359087
+2021-07-13 15:07:18,473 [DEBUG] (xmit 3    ) Stopping- dataSize:64:Min:0.021167602855712175:Avg:0.022775729864158413:Max:0.04727229569107294:Iterations:11.0:Elapsed Runtime:0:00:00.362853
+2021-07-13 15:07:18,474 [DEBUG] (xmit 4    ) Stopping- dataSize:128:Min:0.021125072613358498:Avg:0.0223500054244968:Max:0.03106964100152254:Iterations:11.0:Elapsed Runtime:0:00:00.363709
+2021-07-13 15:07:18,489 [DEBUG] (xmit 10   ) Stopping- dataSize:8192:Min:0.021383719984441996:Avg:0.023781607774170963:Max:0.04720153519883752:Iterations:11.0:Elapsed Runtime:0:00:00.376185
+2021-07-13 15:07:18,490 [DEBUG] (xmit 1    ) Stopping- dataSize:16:Min:0.021131500136107206:Avg:0.023797467308626932:Max:0.04662511218339205:Iterations:11.0:Elapsed Runtime:0:00:00.380900

@@ -1,0 +1,29 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: testserver
+  namespace: foo
+  labels:
+    name: testserver
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: testserver
+  template:
+    metadata:
+      labels:
+        app: testserver
+    spec:
+      containers:
+      - name: testserver
+        image: 171453223611.dkr.ecr.eu-west-2.amazonaws.com/testserver
+        imagePullPolicy: Always
+        resources:
+          limits:
+            memory: "2048Mi"
+            cpu: "1"
+        ports:
+          - containerPort: 5005
+

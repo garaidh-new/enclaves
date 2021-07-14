@@ -1,0 +1,35 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: testserver
+  namespace: foo
+spec:
+  type: LoadBalancer
+  selector:
+    name: testserver
+  ports:
+   - protocol: TCP
+     port: 5005
+     targetPort: 5005
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: testserver
+  namespace: foo
+  labels:
+    name: testserver
+    nitro.k8s.anjuna.io/managed: "yes"
+spec:
+  containers:
+  - name: testserver
+    image: 171453223611.dkr.ecr.eu-west-2.amazonaws.com/testserver
+    imagePullPolicy: Always
+    resources:
+      limits:
+        memory: "2048Mi"
+        cpu: "2"
+    ports:
+      - containerPort: 5005

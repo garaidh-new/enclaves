@@ -1,0 +1,36 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: testserver
+  namespace: foo
+  labels:
+    name: testserver
+    nitro.k8s.anjuna.io/managed: "yes"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: testserver
+  template:
+    metadata:
+      labels:
+        app: testserver
+        nitro.k8s.anjuna.io/managed: "yes"
+    spec:
+      containers:
+      - name: testserver
+        image: 171453223611.dkr.ecr.eu-west-2.amazonaws.com/testserver
+        imagePullPolicy: Always
+        env:
+          - name: ANJ_ENCLAVE_STREAM_CONSOLE
+            value: "yes"
+          - name: ANJ_ENCLAVE_DEBUG_MODE
+            value: "yes"
+        resources:
+          limits:
+            memory: "1048Mi"
+            cpu: "2"
+        ports:
+          - containerPort: 5005
+

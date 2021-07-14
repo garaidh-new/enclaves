@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: testserver-service-loadbalancer
+  namespace: foo
+spec:
+  type: LoadBalancer
+  selector:
+    app: testserver
+  ports:
+    - protocol: TCP
+      port: 5005
+      targetPort: 5005
+
+
+

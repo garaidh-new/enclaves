@@ -1,0 +1,15 @@
+# Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: Apache-2.0
+
+FROM python:3.7.9-alpine3.12
+
+RUN pip install boto3
+RUN pip install requests
+RUN pip install watchtower
+
+COPY testserver.py .
+
+
+RUN ls
+
+CMD ["/usr/local/bin/python3", "testserver.py","server", "0.0.0.0", "5005"]

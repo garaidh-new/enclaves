@@ -1,0 +1,20 @@
+2021-07-13 13:29:36,658 [DEBUG] (xmit 1    ) Starting - Data size (k) : 16, Iterations : 10
+2021-07-13 13:29:36,660 [DEBUG] (xmit 2    ) Starting - Data size (k) : 32, Iterations : 10
+2021-07-13 13:29:36,660 [DEBUG] (xmit 3    ) Starting - Data size (k) : 64, Iterations : 10
+2021-07-13 13:29:36,661 [DEBUG] (xmit 4    ) Starting - Data size (k) : 128, Iterations : 10
+2021-07-13 13:29:36,661 [DEBUG] (xmit 5    ) Starting - Data size (k) : 256, Iterations : 10
+2021-07-13 13:29:36,662 [DEBUG] (xmit 6    ) Starting - Data size (k) : 512, Iterations : 10
+2021-07-13 13:29:36,662 [DEBUG] (xmit 7    ) Starting - Data size (k) : 1024, Iterations : 10
+2021-07-13 13:29:36,662 [DEBUG] (xmit 8    ) Starting - Data size (k) : 2048, Iterations : 10
+2021-07-13 13:29:36,663 [DEBUG] (xmit 9    ) Starting - Data size (k) : 4096, Iterations : 10
+2021-07-13 13:29:36,663 [DEBUG] (xmit 10   ) Starting - Data size (k) : 8192, Iterations : 10
+2021-07-13 13:29:36,997 [DEBUG] (xmit 2    ) Stopping- dataSize:32:Min:0.021449139807373285:Avg:0.02057135727425868:Max:0.025215710047632456:Iterations:11.0:Elapsed Runtime:0:00:00.337395
+2021-07-13 13:29:37,004 [DEBUG] (xmit 4    ) Stopping- dataSize:128:Min:0.020991503726691008:Avg:0.02119648956101049:Max:0.025646873749792576:Iterations:11.0:Elapsed Runtime:0:00:00.342951
+2021-07-13 13:29:37,004 [DEBUG] (xmit 6    ) Stopping- dataSize:512:Min:0.021419877652078867:Avg:0.020936900707469744:Max:0.025359956081956625:Iterations:11.0:Elapsed Runtime:0:00:00.342349
+2021-07-13 13:29:37,004 [DEBUG] (xmit 5    ) Stopping- dataSize:256:Min:0.02085675159469247:Avg:0.02107111999595707:Max:0.025832210667431355:Iterations:11.0:Elapsed Runtime:0:00:00.342957
+2021-07-13 13:29:37,004 [DEBUG] (xmit 8    ) Stopping- dataSize:2048:Min:0.021400765050202608:Avg:0.021015819797123022:Max:0.025617224164307117:Iterations:11.0:Elapsed Runtime:0:00:00.341793
+2021-07-13 13:29:37,008 [DEBUG] (xmit 9    ) Stopping- dataSize:4096:Min:0.022092654835432768:Avg:0.02107822425155477:Max:0.025653779041022062:Iterations:11.0:Elapsed Runtime:0:00:00.345434
+2021-07-13 13:29:37,010 [DEBUG] (xmit 1    ) Stopping- dataSize:16:Min:0.021254923194646835:Avg:0.02128991565074433:Max:0.027380268089473248:Iterations:11.0:Elapsed Runtime:0:00:00.351813
+2021-07-13 13:29:37,015 [DEBUG] (xmit 3    ) Stopping- dataSize:64:Min:0.02181805158033967:Avg:0.02177994448522275:Max:0.027236739173531532:Iterations:11.0:Elapsed Runtime:0:00:00.355282
+2021-07-13 13:29:37,016 [DEBUG] (xmit 10   ) Stopping- dataSize:8192:Min:0.02212452096864581:Avg:0.021703403443098068:Max:0.026915942318737507:Iterations:11.0:Elapsed Runtime:0:00:00.353169
+2021-07-13 13:29:37,018 [DEBUG] (xmit 7    ) Stopping- dataSize:1024:Min:0.021873823832720518:Avg:0.02181250157512047:Max:0.027481914032250643:Iterations:11.0:Elapsed Runtime:0:00:00.356074
