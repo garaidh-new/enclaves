@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: testserver-service-loadbalancer
+  name: testserver
   namespace: foo
 spec:
   type: LoadBalancer
