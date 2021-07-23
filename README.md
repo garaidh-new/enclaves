@@ -26,5 +26,7 @@ Go to the path these files are in on the machine, and use
 to update from here.
 Be aware you'll lose changes/screw it up if you make local changes then do the above.
 
+If you get a Docker error at any point, trying installing docker.
+If you get an AWS error, you probably dont have creds.
 
 
