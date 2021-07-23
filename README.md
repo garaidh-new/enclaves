@@ -5,7 +5,7 @@ Run this with 'enclave' or 'noenclave' to get it to build you a deployment in th
 
 ### Load balancer options ###
 The script Switch.sh currently has a line that applies the file loadbalancer.yaml. Change that for Nodeport.yaml to expose the pods on the same port on each Node, instead of via an external load balancer. Then run 
-kubectl get svc -n foo
+    kubectl get svc -n foo
 to get the port the node has exposed it on.
 Actually that command will tell you wehere the pods are exposed, regardless of how they are exposed.
 
@@ -18,7 +18,7 @@ Alternatively, when prompted, put in the output of the aws cli command it reques
 ## How to update ##
 
 Go to the path these files are in on the machine, and use
-git pull
+    git pull
 to update from here.
 Be aware you'll lose changes/screw it up if you make local changes then do the above.
 
