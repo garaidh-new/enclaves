@@ -1,0 +1,29 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: echoserver
+  namespace: foo
+  labels:
+    name: echoserver
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: echoserver
+  template:
+    metadata:
+      labels:
+        app: echoserver
+    spec:
+      containers:
+      - name: echoserver
+        image: 171453223611.dkr.ecr.eu-west-2.amazonaws.com/echoserver
+        imagePullPolicy: Always
+        resources:
+          limits:
+            memory: "1048Mi"
+            cpu: "1"
+        ports:
+          - containerPort: 5005
+
